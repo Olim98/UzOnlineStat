@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.31 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="1" name="UzOnline Stat"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2015-06-26 17:48" user="OLIM" host="BIOSTAR"/>
+  </section>
+  <section name="files">
+    <file name="Core.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="b447b6b294e3419e8f6707492c8db5b4"/>
+    </file>
+    <file name="MainForm.pbf">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="ae066c81470889e70449ea5e53e224c3"/>
+    </file>
+    <file name="GadgetForm.pbf">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="d41d8cd98f00b204e9800998ecf8427e"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Целевой по умолчанию" enabled="1" default="1">
+      <inputfile value="Core.pb"/>
+      <outputfile value=""/>
+      <executable value="UzStat.exe"/>
+      <options asm="1" unicode="1" thread="1" xpskin="1" debug="1"/>
+      <purifier enable="1"/>
+      <format exe="default" cpu="1"/>
+    </target>
+  </section>
+</project>
